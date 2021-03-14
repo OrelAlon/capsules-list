@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Yanone+Kaffeesatz&display=swap');
+  </style>
+
+  <head>
+    <link
+      data-require="bootstrap@4.1.3"
+      data-semver="4.1.3"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Permanent+Marker&family=Yanone+Kaffeesatz&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <!-- <body onload="refreshTable()"> -->
+  <body>
+    <h1>Pini Gang!</h1>
+    <div class="allInput">
+      <input
+        class="searchInput"
+        type="text"
+        id="search"
+        placeholder="Search..."
+      />
+      <!-- onkeyup="filterByInput()" -->
+      <select name="searchType" id="selectType">
+        <option value="byFirst">First-Name</option>
+        <option value="byLast">Last-Name</option>
+        <option value="byAge">Age</option>
+        <option value="byGender">Gender</option>
+        <option value="byCapsule">Capsule</option>
+        <option value="byCity">City</option>
+        <option value="byHobby">Hobby</option>
+      </select>
+    </div>
+    <div class="infoHead" id="0">
+      <td><p>Id</p></td>
+      <td><p>First-name</p></td>
+      <td><p>Last-name</p></td>
+      <td><p>Age</p></td>
+      <td><p>Gender</p></td>
+      <td><p>Capsule</p></td>
+      <td><p>City</p></td>
+      <td><p>Hobby</p></td>
+      <td><p></p></td>
+      <td><p></p></td>
+    </div>
+    <div class="dataTable">
+      <!-- My Demi -->
+      <!-- <td><p class="textContentId">${person.id}</p></td>
+      <td>
+        <p class="textContent">${person.firstName}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td>
+        <p class="textContent">${person.lastName}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td>
+        <p class="textContent">${person.age}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td>
+        <p class="textContent">${person.gender}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td>
+        <p class="textContent">${person.capsule}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td>
+        <p class="textContent">${person.city}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td>
+        <p class="textContent">${person.hobby}</p>
+        <input type="text" class="inputField" hidden />
+      </td>
+      <td><button class="editBtn">Edit</button></td>
+      <td><button class="deleteBtn">Delete</button></td>
+      <td><button class="saveBtn" hidden>Save</button></td>
+      <td><button class="cancelBtn" hidden>Cancel</button></td> -->
+      <!-- End My Demi -->
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
